@@ -1,0 +1,27 @@
+{
+  "name": "demo-electronjs",
+  "version": "1.0.0",
+  "description": "Demo ElectronJS",
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "author": "AlonsoHdezz",
+  "license": "ISC",
+  "build": {
+    "appId": "Demo-appElectronJS",
+    "asar": true,
+    "win": {
+      "target": "NSIS",
+      "icon": "build/ico.ico"
+    }
+  },
+  "dependencies": {
+    "pretty-bytes": "^5.1.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^20.31.2"
+  }
+}

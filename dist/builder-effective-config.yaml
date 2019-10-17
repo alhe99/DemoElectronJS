@@ -1,0 +1,9 @@
+directories:
+  output: dist
+  buildResources: build
+appId: Demo-appElectronJS
+asar: true
+win:
+  target: NSIS
+  icon: build/ico.ico
+electronVersion: 3.0.7
