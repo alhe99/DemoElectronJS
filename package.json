@@ -19,9 +19,9 @@
     }
   },
   "dependencies": {
-    "pretty-bytes": "^5.1.0"
+    "pretty-bytes": "^5.3.0"
   },
   "devDependencies": {
-    "electron-builder": "^20.31.2"
+    "electron-builder": "^20.44.4"
   }
 }
